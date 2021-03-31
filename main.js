@@ -27,3 +27,7 @@ function randomNum(){
 btnGuess.addEventListener("click", function(){
     randomNum();
 })
+
+btnReset.addEventListener("click", function(){
+    location.reload();
+})
